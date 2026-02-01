@@ -1,0 +1,36 @@
+{
+  "name": "@bagalobsta/standup-bot",
+  "version": "1.0.0",
+  "description": "Generate daily standups and progress reports for AI agents. Track done/doing/blockers.",
+  "main": "lib/index.js",
+  "bin": {
+    "standup": "bin/standup.js"
+  },
+  "scripts": {
+    "test": "echo 'standup ready'"
+  },
+  "keywords": [
+    "agent",
+    "standup",
+    "reporting",
+    "progress",
+    "daily"
+  ],
+  "author": "Bagalobsta <bagalobsta@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bagalobsta/standup-bot.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
